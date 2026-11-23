@@ -1,0 +1,121 @@
+{
+  "dataset_sha256": "336f345d6a5280d7e3642978bb8ed85b7e4c6813024d29be157d757cf3c54358",
+  "train_count": 1422,
+  "test_count": 1436,
+  "n": 48,
+  "radius": 6,
+  "seeds": [
+    2026112301,
+    2026112302,
+    2026112303
+  ],
+  "lock": {
+    "weight": 1.0,
+    "development_trials": [
+      {
+        "weight": 0.0,
+        "cells": 74386
+      },
+      {
+        "weight": 1.0,
+        "cells": 74364
+      },
+      {
+        "weight": 10.0,
+        "cells": 75056
+      },
+      {
+        "weight": 100.0,
+        "cells": 83533
+      }
+    ],
+    "development_query_classes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "locked_final_query_classes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "dataset_sha256": "336f345d6a5280d7e3642978bb8ed85b7e4c6813024d29be157d757cf3c54358",
+    "n": 48,
+    "radius": 6,
+    "seeds": [
+      2026112301,
+      2026112302,
+      2026112303
+    ],
+    "conditions": [
+      "clean",
+      "timewarp",
+      "noise",
+      "composed"
+    ],
+    "primary_endpoint": "exact oracle agreement; ratio of aggregate DP cells (ratio of means) symbolic ordering vs improved-bound ordering",
+    "success_threshold": "100% exact agreement; >=10% cell reduction vs improved-bound ordering in every final condition",
+    "scope": "real pen movement; not AIS, learned world models or new DTW lower bounds"
+  },
+  "normalization_mean": [
+    0.13218530571998735,
+    -0.07464240947499813,
+    -0.30843326360928147
+  ],
+  "normalization_std": [
+    0.9924251692554971,
+    1.0009724021715343,
+    1.0200704550810151
+  ],
+  "catalogue_preprocessing": [
+    {
+      "seed": 2026112301,
+      "envelope_seconds": 0.0024814580101519823,
+      "symbolic_feature_seconds": 0.0009003749873954803,
+      "total_seconds": 0.0033818329975474626
+    },
+    {
+      "seed": 2026112302,
+      "envelope_seconds": 0.0027166249928995967,
+      "symbolic_feature_seconds": 0.0009120829927269369,
+      "total_seconds": 0.0036287079856265336
+    },
+    {
+      "seed": 2026112303,
+      "envelope_seconds": 0.0025126249820459634,
+      "symbolic_feature_seconds": 0.0009300410165451467,
+      "total_seconds": 0.00344266599859111
+    }
+  ],
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "elapsed_seconds": 11.860883999994257,
+  "setup_seconds": {
+    "backend_load_or_compile": 0.000622583000222221,
+    "data_parse_and_resample": 0.2383331670134794,
+    "train_fit_normalization": 0.0025446669897064567
+  },
+  "source_hashes": {
+    "study.py": "995e98a20409411f7dbac9f86ad67d9b343d7bc66c1d6571dcad2ce863f05ac3",
+    "dtw.c": "9dae8269bf3751a2b42b6ea81207631c02f0e45c1fabedcc4a029d1577d816d2",
+    "PROTOCOL.md": "5032a4b8dbf4c19f8cb2bce8a8ac9007e25763eadc04391add5a657bc8810c65",
+    "protocol_lock.json": "f4fc43d1be5bb25335418cf0f94f597a50f51bcc1baacd91ebb0735d5767361e"
+  },
+  "maxrss_native_units": 115687424,
+  "maxrss_unit": "bytes"
+}

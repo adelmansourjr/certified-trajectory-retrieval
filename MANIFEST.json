@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "dataset_archive_sha256": "336f345d6a5280d7e3642978bb8ed85b7e4c6813024d29be157d757cf3c54358",
+  "frozen_source_hashes": {
+    "study.py": "995e98a20409411f7dbac9f86ad67d9b343d7bc66c1d6571dcad2ce863f05ac3",
+    "dtw.c": "9dae8269bf3751a2b42b6ea81207631c02f0e45c1fabedcc4a029d1577d816d2",
+    "PROTOCOL.md": "5032a4b8dbf4c19f8cb2bce8a8ac9007e25763eadc04391add5a657bc8810c65",
+    "protocol_lock.json": "f4fc43d1be5bb25335418cf0f94f597a50f51bcc1baacd91ebb0735d5767361e",
+    "test_study.py": "06e594ae59f3c7561dc41caa4e880b0ac31b2ec1216de18ffece2a9fb45730b8",
+    "verify.py": "86ede60d5b264c7c2b638d945825d7ec4685e852af53df16ecfbd064f30776eb"
+  },
+  "result_file_hashes": {
+    "results/hypothesis_gate.json": "a6e8de970e005aa21d878224fab42096e4d71fe0013316485f25fb81ca49b591",
+    "results/independent_audit.json": "c28fe04b4a188ae31fbb0a10acb78341b0f05c2941b9bc8dc6fc94a2aaf3ff17",
+    "results/metadata.json": "93984297d4e3096e4415afcd04b91d3252f13dfe38a2a0ab4d2506a316f295fe",
+    "results/raw.jsonl": "7954372961df70f53eb95203010bd5bd9b67a7a11b2012456300a700de121f7e",
+    "results/splits.json": "51f3eb03e85b5f7a7a4d7d8130a26fd660c453a611984e12c2cbe0276b613f7c",
+    "results/summary.json": "4af84439c248a5bc18a84aab043732a7afae039b4c39072e2e588188029171e9"
+  },
+  "excluded_from_public_repository": [
+    "data/CharacterTrajectories.zip",
+    ".cache/",
+    "__pycache__/"
+  ],
+  "claimed_certified_retrievals": 1920,
+  "paired_query_variants": 480,
+  "distinct_source_query_ids": 113,
+  "hypothesis_status": "exactness passed; symbolic efficiency failed"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "record_count": 2400,
+  "records_matching_stored_exhaustive_identity_and_distance": 2400,
+  "independently_reconstructed_final_queries": 24,
+  "independent_full_matrix_candidate_pairs": 4800,
+  "primary_aggregate_symbolic_ratios": {
+    "clean": 1.110801956160426,
+    "timewarp": 1.1844913008411107,
+    "noise": 1.0678915999974254,
+    "composed": 1.0965757399883924
+  },
+  "frozen_symbolic_efficiency_gate": "FAIL",
+  "source_hashes_match": true
+}

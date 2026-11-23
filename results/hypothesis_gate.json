@@ -1,0 +1,5 @@
+{
+  "exactness_pass": true,
+  "symbolic_efficiency_pass": false,
+  "definition": "primary efficiency is ratio of aggregate DP cells (equivalently ratio of mean cells), not mean per-query ratios"
+}

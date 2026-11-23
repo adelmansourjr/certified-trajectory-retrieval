@@ -1,0 +1,62 @@
+{
+  "weight": 1.0,
+  "development_trials": [
+    {
+      "weight": 0.0,
+      "cells": 74386
+    },
+    {
+      "weight": 1.0,
+      "cells": 74364
+    },
+    {
+      "weight": 10.0,
+      "cells": 75056
+    },
+    {
+      "weight": 100.0,
+      "cells": 83533
+    }
+  ],
+  "development_query_classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "locked_final_query_classes": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "dataset_sha256": "336f345d6a5280d7e3642978bb8ed85b7e4c6813024d29be157d757cf3c54358",
+  "n": 48,
+  "radius": 6,
+  "seeds": [
+    2026112301,
+    2026112302,
+    2026112303
+  ],
+  "conditions": [
+    "clean",
+    "timewarp",
+    "noise",
+    "composed"
+  ],
+  "primary_endpoint": "exact oracle agreement; ratio of aggregate DP cells (ratio of means) symbolic ordering vs improved-bound ordering",
+  "success_threshold": "100% exact agreement; >=10% cell reduction vs improved-bound ordering in every final condition",
+  "scope": "real pen movement; not AIS, learned world models or new DTW lower bounds"
+}
